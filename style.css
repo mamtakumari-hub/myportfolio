@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(13,13,29);
+color: white;
+}
+#header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("image5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    width: 100%;
+    background-color: #da1e1e;
+} 
+.headertext{
+    margin-top: 20%;
+    font-size: 30px;
+    
+}
+.headertext h1{
+    margin-top: 20%;
+    font-size: 60px;
+}
+.headertext h1 span{
+    color: crimson;
+}
+#maintag{
+    margin-top:0%;
+     width: 100%;
+    height:200px ;
+     background-color: rgb(5, 5, 5); 
+    color: white;
+   
+}
+.form{
+   display:flex;
+   justify-content: space-between;
+   
+}
+.ap{
+    margin-left: 5px;
+    height: 100px;
+    width: 40%;
+}
+.about{
+    margin-top: 5px;
+    font-size: 40px;
+    /* text-align: center; */
+    color: #da1e1e;
+    transition-timing-function:ease-out;
+    transition-duration: 0.5s;
+}
+.about:hover{
+    color: aqua;
+}
+.resume{
+    background-color: white;
+    color: rgb(217, 26, 26);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    
+}
+.resume:hover{
+    background-color: rgb(143, 32, 246);
+}
+    
+.cp{
+    margin-right: 5px;
+    height: 100px;
+    width: 40%;
+   
+    
+
+}
+.contact{
+    text-align: center
+    ;
+    margin-top: 5px;
+    font-size: 40px;
+    /* text-align: center; */
+    color: #da1e1e;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+.contact:hover{
+    color: aqua;
+}
+ .id1{
+    text-align: center;
+   
+}
+
+.id2{
+    text-align: center;
+    
+} 
+.id22{
+    text-align: center;
+    
+} 
+.id3{
+    text-align: center;
+    
+}  
+footer {
+    background-color: #1b1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding:1px;
+}
+
+.contact-info {
+    width:100%
+}
+
+.contact-info p {
+    margin: 5px;
+    text-decoration: underline;
+   
+}
+.contact-info p:hover{
+    color:aqua;
+}
+
+.contact-info a {
+    color: hsl(262, 47%, 58%);
+    text-decoration: underline;
+}
+.image{
+
+    height:200px;
+    width: 200px;
+    background-image: url("image6.png");
+    background-size: cover;
+    border-radius: 50%;
+   
+    
+}
+
+
+@media only screen and (max-width:600px) {
+    .headertext{
+        margin-top:20%;
+        font-size: 20px;
+    }
+    .headertext h1{
+        margin-top: 20%;
+        font-size: 40px;
+    }
+    #header{
+        height: 100vh;
+        width: 100%;
+        background-image: url("image5.jpg");
+        background-size: cover;
+    }
+    #maintag{
+        margin-top:0%;
+         width: 100%;
+        height:200px ;
+        
+       
+    }
+   
+    .ap{
+        margin-left: 2px;
+        height: 100px;
+        width: 100%;
+    }
+    .about{
+        margin-top: 2px;
+        font-size: 40px;
+        text-align: center;
+       
+    }
+    .description{
+        margin-top:7px;
+        font-size:10px;
+        text-align: center;
+
+    }
+    .resume{
+        margin-top:2px;
+    }
+    
+    .cp{
+        /* margin-right: 2px; */
+        height: 100px;
+        width: 100%;
+        margin-bottom: 100%;
+       
+        
+    
+    }
+    .contact{
+        /* margin-bottom: 50%; */
+        text-align:center;
+        margin-top: 2px;
+        font-size: 40px;
+        /* text-align: center; */
+        color: #da1e1e;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s;
+    }
+    .image{
+        display: none;
+    }
+    
+    footer {
+        margin-top:60%;
+        background-color: #1b1a1a;
+        color: #ffffff;
+        text-align: center;
+        padding:1px;
+    }
+    
+}
+
+    
